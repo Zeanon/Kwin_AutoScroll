@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--
 SPDX-FileCopyrightText: 2026 KWin AutoScroll contributors
 SPDX-License-Identifier: GPL-2.0-or-later
 -->
+
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <g fill="#2f3438" stroke-linejoin="round">
-    <path d="M32 5L23 20h18zM59 9Vz" stroke="#f2f4f5" stroke-width="2.45"/>
+  <g transform="matrix(1.25,0,0,1.25,-8,-4.2062644)">
+    <g fill="#2f3438" stroke-linejoin="round">
+      <path d="M32 5L23 20H41Z" stroke="#f2f4f5" stroke-width="2.45"/>
+    </g>
+    <circle cx="32" cy="32" r="5" fill="#eb3131" stroke="#5f6266" stroke-width="1.75"/>
   </g>
-  <circle cx="32" cy="32" r="5" fill="#da4453" stroke="#5f6266" stroke-width="1.75"/>
 </svg>

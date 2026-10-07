@@ -8,5 +8,5 @@ SPDX-License-Identifier: GPL-2.0-or-later
     <path d="M32 5L23 20h18zM59 32L44 23v18zM32 59L41 44H23zM5 32l15 9V23z"
           stroke="#f2f4f5" stroke-width="2.45"/>
   </g>
-  <circle cx="32" cy="32" r="5" fill="#da4453" stroke="#5f6266" stroke-width="1.75"/>
+  <circle cx="32" cy="32" r="5" fill="#eb3131" stroke="#5f6266" stroke-width="1.75"/>
 </svg>

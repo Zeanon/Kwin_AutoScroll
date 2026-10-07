@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+SPDX-FileCopyrightText: 2026 KWin AutoScroll contributors
+SPDX-License-Identifier: GPL-2.0-or-later
+-->
+
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     fill="#2f3438"
+     stroke-linejoin="round"
+     id="g1">
+    <path
+       d="M 32,5 23,20 H 41 Z"
+       stroke="#f2f4f5"
+       stroke-width="2.45"
+       id="path1" />
+  </g>
+  <circle
+     cx="32"
+     cy="32"
+     r="5"
+     fill="#eb3131"
+     stroke="#5f6266"
+     stroke-width="1.75"
+     id="circle1" />
+</svg>

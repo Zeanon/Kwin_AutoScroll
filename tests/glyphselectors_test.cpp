@@ -30,7 +30,7 @@ private Q_SLOTS:
 
 void GlyphSelectorsTest::styleSelectorUsesStableIds() {
   GlyphStyleComboBox selector;
-  QCOMPARE(selector.count(), 7);
+  QCOMPARE(selector.count(), 8);
   QCOMPARE(QString::fromLatin1(selector.metaObject()->userProperty().name()),
            QStringLiteral("glyphStyle"));
 
