@@ -6,8 +6,8 @@ SPDX-License-Identifier: GPL-2.0-or-later
     <qresource prefix="/autoscroll">
         <file alias="styles/breeze-dark/anchor.svg">assets/breeze-dark-anchor.svg</file>
         <file alias="styles/breeze-dark/direction.svg">assets/breeze-dark-direction.svg</file>
-        <file alias="styles/breeze-dark-zeanon/anchor.svg">assets/breeze-dark-anchor-zeanon.svg</file>
-        <file alias="styles/breeze-dark-zeanon/direction.svg">assets/breeze-dark-direction-zeanon.svg</file>
+        <file alias="styles/breeze-zeanon/anchor.svg">assets/breeze-dark-anchor-zeanon.svg</file>
+        <file alias="styles/breeze-zeanon/direction.svg">assets/breeze-dark-direction-zeanon.svg</file>
         <file alias="styles/breeze/anchor.svg">assets/breeze-anchor.svg</file>
         <file alias="styles/breeze/direction.svg">assets/breeze-direction.svg</file>
         <file alias="styles/classic/anchor.svg">assets/anchor.svg</file>

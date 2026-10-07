@@ -15,8 +15,8 @@ namespace {
 constexpr std::array<GlyphStyle, 8> Styles{{
     {"breeze-dark", ":/autoscroll/styles/breeze-dark/anchor.svg",
      ":/autoscroll/styles/breeze-dark/direction.svg"},
-    {"breeze-dark-zeanon", ":/autoscroll/styles/breeze-dark-zeanon/anchor.svg",
-     ":/autoscroll/styles/breeze-dark-zeanon/direction.svg"},
+    {"breeze-zeanon", ":/autoscroll/styles/breeze-zeanon/anchor.svg",
+     ":/autoscroll/styles/breeze-zeanon/direction.svg"},
     {"breeze", ":/autoscroll/styles/breeze/anchor.svg",
      ":/autoscroll/styles/breeze/direction.svg"},
     {"classic", ":/autoscroll/styles/classic/anchor.svg",

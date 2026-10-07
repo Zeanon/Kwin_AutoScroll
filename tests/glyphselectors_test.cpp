@@ -35,7 +35,7 @@ void GlyphSelectorsTest::styleSelectorUsesStableIds() {
            QStringLiteral("glyphStyle"));
 
   const QStringList expected{
-      QStringLiteral("breeze-dark"), QStringLiteral("breeze-dark-zeanon"),
+      QStringLiteral("breeze-dark"), QStringLiteral("breeze-zeanon"),
       QStringLiteral("breeze"),      QStringLiteral("classic"),
       QStringLiteral("feather"),     QStringLiteral("orbit"),
       QStringLiteral("circuit"),     QStringLiteral("pulse")};
