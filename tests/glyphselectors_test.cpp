@@ -35,10 +35,10 @@ void GlyphSelectorsTest::styleSelectorUsesStableIds() {
            QStringLiteral("glyphStyle"));
 
   const QStringList expected{
-      QStringLiteral("breeze-dark"), QStringLiteral("breeze"),
-      QStringLiteral("classic"),     QStringLiteral("feather"),
-      QStringLiteral("orbit"),       QStringLiteral("circuit"),
-      QStringLiteral("pulse")};
+      QStringLiteral("breeze-dark"), QStringLiteral("breeze-dark-zeanon"),
+      QStringLiteral("breeze"),      QStringLiteral("classic"),
+      QStringLiteral("feather"),     QStringLiteral("orbit"),
+      QStringLiteral("circuit"),     QStringLiteral("pulse")};
   QStringList actual;
   for (int index = 0; index < selector.count(); ++index) {
     actual.append(selector.itemData(index).toString());
