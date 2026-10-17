@@ -8,6 +8,8 @@ SPDX-License-Identifier: GPL-2.0-or-later
         <file alias="styles/breeze-dark/direction.svg">assets/breeze-dark-direction.svg</file>
         <file alias="styles/breeze-zeanon/anchor.svg">assets/breeze-dark-anchor-zeanon.svg</file>
         <file alias="styles/breeze-zeanon/direction.svg">assets/breeze-dark-direction-zeanon.svg</file>
+        <file alias="styles/breeze-zeanon-2/anchor.svg">assets/breeze-dark-anchor-zeanon-2.svg</file>
+        <file alias="styles/breeze-zeanon-2/direction.svg">assets/breeze-dark-direction-zeanon-2.svg</file>
         <file alias="styles/breeze/anchor.svg">assets/breeze-anchor.svg</file>
         <file alias="styles/breeze/direction.svg">assets/breeze-direction.svg</file>
         <file alias="styles/classic/anchor.svg">assets/anchor.svg</file>

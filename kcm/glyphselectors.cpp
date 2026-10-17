@@ -32,6 +32,9 @@ QString styleName(QStringView styleId) {
   if (styleId == u"breeze-zeanon") {
     return i18nc("@item:inlistbox autoscroll glyph style", "Breeze Zeanon");
   }
+  if (styleId == u"breeze-zeanon-2") {
+    return i18nc("@item:inlistbox autoscroll glyph style", "Breeze Zeanon 2");
+  }
   if (styleId == u"breeze") {
     return i18nc("@item:inlistbox autoscroll glyph style", "Breeze");
   }

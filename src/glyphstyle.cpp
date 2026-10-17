@@ -12,11 +12,13 @@
 
 namespace AutoScroll {
 namespace {
-constexpr std::array<GlyphStyle, 8> Styles{{
+constexpr std::array<GlyphStyle, 9> Styles{{
     {"breeze-dark", ":/autoscroll/styles/breeze-dark/anchor.svg",
      ":/autoscroll/styles/breeze-dark/direction.svg"},
     {"breeze-zeanon", ":/autoscroll/styles/breeze-zeanon/anchor.svg",
      ":/autoscroll/styles/breeze-zeanon/direction.svg"},
+    {"breeze-zeanon-2", ":/autoscroll/styles/breeze-zeanon-2/anchor.svg",
+     ":/autoscroll/styles/breeze-zeanon-2/direction.svg"},
     {"breeze", ":/autoscroll/styles/breeze/anchor.svg",
      ":/autoscroll/styles/breeze/direction.svg"},
     {"classic", ":/autoscroll/styles/classic/anchor.svg",
@@ -34,7 +36,7 @@ constexpr std::array<GlyphStyle, 8> Styles{{
 constexpr std::array<int, 8> SizePresets{{16, 24, 32, 40, 48, 56, 64, 72}};
 } // namespace
 
-const std::array<GlyphStyle, 8> &glyphStyles() { return Styles; }
+const std::array<GlyphStyle, 9> &glyphStyles() { return Styles; }
 
 const GlyphStyle &glyphStyle(QStringView id) {
   const auto found = std::find_if(Styles.cbegin(), Styles.cend(),

@@ -30,15 +30,16 @@ private Q_SLOTS:
 
 void GlyphSelectorsTest::styleSelectorUsesStableIds() {
   GlyphStyleComboBox selector;
-  QCOMPARE(selector.count(), 8);
+  QCOMPARE(selector.count(), 9);
   QCOMPARE(QString::fromLatin1(selector.metaObject()->userProperty().name()),
            QStringLiteral("glyphStyle"));
 
   const QStringList expected{
-      QStringLiteral("breeze-dark"), QStringLiteral("breeze-zeanon"),
-      QStringLiteral("breeze"),      QStringLiteral("classic"),
-      QStringLiteral("feather"),     QStringLiteral("orbit"),
-      QStringLiteral("circuit"),     QStringLiteral("pulse")};
+      QStringLiteral("breeze-dark"),     QStringLiteral("breeze-zeanon"),
+      QStringLiteral("breeze-zeanon-2"), QStringLiteral("breeze"),
+      QStringLiteral("classic"),         QStringLiteral("feather"),
+      QStringLiteral("orbit"),           QStringLiteral("circuit"),
+      QStringLiteral("pulse")};
   QStringList actual;
   for (int index = 0; index < selector.count(); ++index) {
     actual.append(selector.itemData(index).toString());
